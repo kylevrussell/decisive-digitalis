@@ -1,0 +1,32 @@
+/* --- Gentle typography improvements --- */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #444;
+    line-height: 1.75;
+    font-weight: 400;
+    background-color: #faf9f7;
+}
+
+/* Keep text from stretching too wide */
+main,
+article {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+/* Softer title */
+h2 {
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #222;
+    margin-bottom: 1.5rem;
+}
+
+/* More readable paragraphs */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
