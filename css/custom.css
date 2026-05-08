@@ -1,5 +1,9 @@
 /* --- Gentle typography improvements --- */
 
+:root {
+    --pico-color: #7654cd;
+}
+
 body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     color: #7654cd;
